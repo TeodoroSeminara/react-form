@@ -20,9 +20,3 @@ const articleList = [{
 }]
 
 export default articleList
-
-
-
-/*"Panda ruba pranzo al guardiano dello zoo e pretende dessert", "Nonna di 82 anni diventa campionessa di eSports per sbaglio", "Sindaco inaugura fontana ma cade dentro: applausi del pubblico", "Scoperto gatto che prende ogni giorno l’autobus per andare al parco","Uomo tenta di cucinare pasta senza acqua: vigili del fuoco intervengono"
-   
-        */

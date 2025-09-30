@@ -1,0 +1,83 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #1E1E1E;
+}
+
+body {
+    background: linear-gradient(90deg,
+            rgb(218, 186, 255) 0%,
+            rgb(186, 225, 255) 20%,
+            rgb(186, 255, 201) 40%,
+            rgb(255, 255, 186) 60%,
+            rgb(255, 223, 186) 80%,
+            rgb(255, 179, 186) 100%);
+}
+
+/* Main */
+.container {
+    background: #FDE2E4;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* List */
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: #7A3E9D;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background: linear-gradient(90deg,
+            #F8AFC3,
+            #A5D8FF);
+    box-shadow: 0 0 12px rgba(203, 166, 247, 0.8);
+    cursor: pointer;
+}
+
+/* Button */
+
+button {
+    background: none;
+    color: #FF5D8F;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.add-btn {
+    font-size: 1.6rem;
+}
+
+li button:hover {
+    transform: scale(1.2);
+}
+
+/* Input */
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: 2px solid #CBA6F7;
+    border-radius: 8px;
+    padding: 5px 25px;
+    width: 20%;
+}
